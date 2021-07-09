@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.5;
 }
 ol, ul {
 	list-style: none;
@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 h1, h2, h3, h4, h5 {
@@ -126,21 +127,156 @@ p {
     padding-right: 0;
 }
 
+/*End of CSS Reset*/
+
 footer {
-    width: 100%;
+    width: auto;
     background: black;
 }
 
 footer nav {
-    width: 60%;
+    width: auto;
     display: flex;
     justify-content: space-between;
+    margin-right: 20em;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
 }
 
 footer nav a {
-    color: white;
+    color: #B1B0B0;
     text-decoration: none;
+}
+
+header {
+    width: 63em;
+    height: 5em;
+    background: white;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-bottom: 5em;
+    padding-top: 1em;
+}
+
+header nav {
+    width: 75%;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-around;
+    margin-right: 9em;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header img {
+    display: flex;
+    padding-left: 6.5em
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#topImg {
+    padding-bottom: 2em;
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
+.top-content h1 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#midSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.twoItems {
+    display: flex;
+}
+
+.itemBottom {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    margin-top: 3.5em;
+}
+
+.itemTop {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    margin-right: 2em;
+    margin-top: 1em;
+}
+
+.button {
+    display: flex;
+    width: 8em;
+    height: 2.5em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    border: 2px #000000 solid;
+    border-radius: 10px;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+#bottomSection {
+    margin-bottom: 3em;
 }
